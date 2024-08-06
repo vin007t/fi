@@ -1,0 +1,45 @@
+.homepage {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: #007BFF;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #007BFF;
+}
+
+.service-item {
+  margin: 20px 0;
+}
+
+.service-item h3 {
+  margin: 0;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center; /* Vertically centers the image, if necessary */
+}
+
+.banner img {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em; /* Adjust as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Centers the text horizontally */
+  width: 90%; /* Adjust width as needed */
+}
+
+/* Example media query for responsiveness */
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text {
+    font-size: 1.5em; /* Further adjustment for very small screens */
+  }
+}
